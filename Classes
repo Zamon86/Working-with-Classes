@@ -8,6 +8,17 @@ public class Main {
         System.out.println(sum.sum);
         System.out.println(sum2.sum);
     }
+}
 
+public class Q1 {
+    int sum;
 
+    public Q1() {
+    }
+
+    public Q1(int[] tab){
+        for (int i = 0; i < tab.length; i++) {
+            sum = sum + tab[i];
+        }
+    }
 }
