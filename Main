@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] tab = {1,2,3,4,5,6,7};
+        int[] tab2 = {1,2,3,4,5,6};
+        Q1 sum = new Q1(tab);
+        Q1 sum2 = new Q1(tab2);
+
+        System.out.println(sum.sum);
+        System.out.println(sum2.sum);
+    }
+
+
+}
